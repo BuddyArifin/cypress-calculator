@@ -1,0 +1,33 @@
+{
+  "name": "cypress-calculator",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test-cli": "cp -r cypress/pages/testData/* cypress/snapshots/snapshots/xendit && ./node_modules/.bin/cypress-tags run -e TAGS='@tag-calculator' ",
+    "clean": "rm -rf cypress/snapshots/snapshots/xendit/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:BuddyArifin/cypress-calculator.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Buddy Arifin",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^3.3.0",
+    "cypress-cucumber-preprocessor": "1.11.2",
+    "cypress-visual-regression": "1.0.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress-image-snapshot": "^3.1.1"
+  }
+}
