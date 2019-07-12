@@ -7,7 +7,7 @@ Feature: The Calculator
   Scenario Outline: I want be able to Subtraction
     Given I open Calculator page
     And I see calculator in the title
-    And I want to add numbers <numOne> and <numTwo>
+    And I want to susbtract numbers <numOne> and <numTwo>
     Then I can see the result is result
 
   Examples:
