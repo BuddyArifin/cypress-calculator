@@ -1,5 +1,9 @@
 # cypress-calculator
 
-To Use Please Use:
+To Use:
 
-*npm run test-cli*
+```
+npm install
+npm run test-cli
+
+```
