@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
-    "test-cli": "cp -r cypress/pages/testData/* cypress/snapshots/snapshots/xendit && ./node_modules/.bin/cypress-tags run -e TAGS='@tag-calculator' ",
+    "test-cli": "./node_modules/.bin/cypress-tags run -e TAGS='@tag-calculator' ",
     "clean": "rm -rf cypress/snapshots/snapshots/xendit/*"
   },
   "repository": {
