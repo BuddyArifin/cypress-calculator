@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "cypress": "^3.3.0",
-    "cypress-cucumber-preprocessor": "1.11.2",
+    "cypress-cucumber-preprocessor": "1.19.2",
     "cypress-visual-regression": "1.0.3"
   },
   "cypress-cucumber-preprocessor": {
